@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="github"
+    <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/samsung/a34x" name="dumpstercod/android_device_samsung_a346e" remote="github" revision="lineage-20.0" />
+ <project path="device/samsung/a34x" name="dumpstercod/android_device_samsung_a346e" remote="gh" revision="lineage-20.0" />
 
  <!--Kernel -->
- <project path="kernel/samsung/a34x" name="dumpstercod/source-kernel-a34x" remote="github" revision="lineage-20.0" />
+ <project path="kernel/samsung/a34x" name="dumpstercod/source-kernel-a34x" remote="gh" revision="lineage-20.0" />
  
  <!--Vendor -->
  <!--project path="vendor/samsung" name="dumpstercod/proprietary_vendor_samsung" remote="github" revision="lineage-20.0" /-->
- <project path="vendor/samsung" name="dumpstercod/a34x-vendor" remote="github" revision="lineage-20.0" />
+ <project path="vendor/samsung" name="dumpstercod/a34x-vendor" remote="gh" revision="lineage-20.0" />
  
  <!--Extras -->
  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
