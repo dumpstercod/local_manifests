@@ -8,7 +8,8 @@
  <project path="device/samsung/a34x" name="dumpstercod/android_device_samsung_a346e" remote="gh" revision="master" />
 
  <!--Kernel -->
- <project path="kernel/samsung/a34x" name="dumpstercod/source-kernel-a34x" remote="gh" revision="4.19" />
+ <!--project path="kernel/samsung/a34x" name="dumpstercod/source-kernel-a34x" remote="gh" revision="4.19" /-->
+ <project path="kernel/samsung/a34x" name="dumpstercod/android_kernel_samsung_a34x" remote="gh" revision="stock" />
  
  <!--Vendor -->
  <!--project path="vendor/samsung" name="dumpstercod/proprietary_vendor_samsung" remote="github" revision="lineage-20.0" /-->
